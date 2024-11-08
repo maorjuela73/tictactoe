@@ -33,7 +33,7 @@ El juego comienza con un tablero vacío de 3x3 celdas, y los jugadores (X y O) a
 
 ## 🔍 Descripción de los Componentes
 
-
+![Diagrama de Clases](docs/diagrama_clases.png)
 
 ### 1. Enumeración `Simbolo`
 
@@ -95,5 +95,18 @@ Punto de entrada del programa que inicializa los jugadores, crea el juego y lo i
 1. **Clonar el Repositorio**
 
    ```bash
-   git clone https://github.com/tu_usuario/tic-tac-toe-cpp.git
-   cd tic-tac-toe-cpp
+   git clone https://github.com/maorjuela73/tictactoe.git
+   cd tictactoe
+    ```
+
+2. **Compilar el Programa**
+
+    ```bash
+    g++ -o tictac main.cpp Jugador.cpp Juego.cpp Tablero.cpp EstadoJuego.cpp
+    ```
+
+3. **Ejecutar el Programa**
+
+   ```bash
+   tictac.exe
+   ```
