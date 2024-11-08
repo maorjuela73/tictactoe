@@ -196,7 +196,7 @@ public:
         Simbolo ganador = tablero.verificarGanador();
         if (ganador != Simbolo::VACIO) {
             tablero.mostrar();
-            std::cout << "¡Jugador " << (ganador == Simbolo::X ? "X" : "O") << " ha ganado!\n";
+            std::cout << "Jugador " << (ganador == Simbolo::X ? "X" : "O") << " ha ganado!\n";
             finJuego = true;
             return true;
         }
